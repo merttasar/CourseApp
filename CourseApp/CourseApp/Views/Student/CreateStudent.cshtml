@@ -1,0 +1,35 @@
+﻿@model StudentCreateViewModel
+<form method="post" asp-controller="Student" asp-action="CreateStudent">
+    <div class="card col-5 mx-auto">
+        <div class="card-header">
+            Create Student
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label asp-for="@Model.FirstName" class="form-label"></label>
+                <input asp-for="@Model.FirstName" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="@Model.LastName" class="form-label"></label>
+                <input asp-for="@Model.LastName" class="form-control">
+            </div>
+            <div class="col-3 mb-3">
+                <label asp-for="@Model.BirthDate" class="form-label"></label>
+                <input type="date" asp-for="@Model.BirthDate" class="form-control">
+            </div>
+            <div class="mb-3">
+
+                @foreach (var item in ViewBag.Courses)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="courseIds" value="@item.CourseId" />
+                        <label class="form-check-label">
+                            @item.CourseName
+                        </label>
+                    </div>
+                }
+            </div>
+            <button type="submit" class="btn btn-primary ">Create</button>
+        </div>
+    </div>
+</form>

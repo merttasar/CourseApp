@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|c:\\users\\meto\\desktop\\csharp\\courseapp\\courseapp\\views\\student\\updatestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\views\\student\\updatestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|c:\\users\\meto\\desktop\\csharp\\courseapp\\courseapp\\data\\coursecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\data\\coursecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|c:\\users\\meto\\desktop\\csharp\\courseapp\\courseapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|c:\\users\\meto\\desktop\\csharp\\courseapp\\courseapp\\data\\concrete\\efstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564666D7-FA07-47CB-96DB-E9397D48C6CF}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\data\\concrete\\efstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Views\\Student\\UpdateStudent.cshtml",
+              "RelativeDocumentMoniker": "CourseApp\\Views\\Student\\UpdateStudent.cshtml",
+              "ToolTip": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Views\\Student\\UpdateStudent.cshtml",
+              "RelativeToolTip": "CourseApp\\Views\\Student\\UpdateStudent.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-19T18:49:50.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Data\\CourseContext.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Data\\CourseContext.cs",
+              "ToolTip": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Data\\CourseContext.cs",
+              "RelativeToolTip": "CourseApp\\Data\\CourseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T20:13:02.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CourseApp\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwDkAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T20:05:00.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Data\\Concrete\\EfStudentRepository.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Data\\Concrete\\EfStudentRepository.cs",
+              "ToolTip": "C:\\Users\\Meto\\Desktop\\Csharp\\CourseApp\\CourseApp\\Data\\Concrete\\EfStudentRepository.cs",
+              "RelativeToolTip": "CourseApp\\Data\\Concrete\\EfStudentRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwC8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T19:38:46.28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

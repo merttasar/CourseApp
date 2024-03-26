@@ -1,0 +1,36 @@
+﻿@model List<Student>
+<a asp-controller="Student" asp-action="CreateStudent"><button type="submit" class="btn btn-warning mb-2">
+        Create Student</button></a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Birthdate</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count == 0)
+        {
+            <tr>
+                <div class="bg-primary text-center  text-white fs-3 pb-1">Not have student.</div>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.BirthDate</td>
+                    <td style="width:200px">
+                        <a asp-controller="Student" asp-action="UpdateStudent" asp-route-id="@item.StudentId" type="button" class="btn btn-primary inline-block">Update</a>
+                        <a asp-controller="Student" asp-action="RemoveStudent" asp-route-id="@item.StudentId" class="btn btn-danger inline-block ms-2">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
